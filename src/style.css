@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container-fluid {
+  background-color: green;
+}
+.card {
+  margin: 50px auto;
+  border: 2px solid gray;
+  border-radius: 25px;
+  height: 600px;
+  width: 400px;
+}
+
+.suit,
+.upside-down-suit {
+  height: 50%;
+  font-size: 4rem;
+}
+.number {
+  height: 50%;
+  font-size: 4rem;
+}
+.suit {
+  margin-right: auto;
+}
+.upside-down-suit {
+  margin-left: auto;
+}
